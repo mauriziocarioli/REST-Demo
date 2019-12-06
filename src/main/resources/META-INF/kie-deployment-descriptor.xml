@@ -12,9 +12,9 @@
     <work-item-handlers>
         <work-item-handler>
             <resolver>mvel</resolver>
-            <identifier>new org.jbpm.process.workitem.rest.RESTWorkItemHandler("mcarioli", "")</identifier>
+            <identifier>new org.jbpm.process.workitem.rest.RESTWorkItemHandler("mcarioli", "", classLoader)</identifier>
             <parameters/>
-            <name>Rest</name>
+            <name>REST</name>
         </work-item-handler>
     </work-item-handlers>
     <environment-entries/>

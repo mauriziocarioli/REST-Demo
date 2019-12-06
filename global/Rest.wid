@@ -6,9 +6,8 @@
             "description" : "",
             "defaultHandler" : "mvel: new org.jbpm.process.workitem.rest.RESTWorkItemHandler()",
             "documentation" : "jbpm-workitems-rest/index.html",
-
             "parameters" : [
-                                "ConnectTimeout" : new StringDataType()
+                "ConnectTimeout" : new StringDataType()
                 ,"ResultClass" : new StringDataType()
                 ,"ContentType" : new StringDataType()
                 ,"AcceptCharset" : new StringDataType()
@@ -28,15 +27,13 @@
 
             ],
             "results" : [
-                                "Result" : new StringDataType()
+                "Result" : new StringDataType()
 
             ],
             "mavenDependencies" : [
-                                 "org.jbpm:jbpm-workitems-rest:7.26.0.Final-redhat-00005"
+                "org.jbpm:jbpm-workitems-rest:7.26.0.Final-redhat-00005"
 
             ],
             "icon" : "Rest.png"
-
         ]
-
 ]
